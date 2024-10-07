@@ -33,7 +33,11 @@ console.log(isEven(3));
  * două șiruri și le concatenează, returnând rezultatul.
  */
 
-
+function concatenateStrings(string1, string2) {
+    return string1 + string2;
+}
+const result = concatenateStrings("Welcome", "Home");
+console.log(result);
 
 /**
  * Verificarea Palindromului:
