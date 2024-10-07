@@ -1,2 +1,2 @@
-# 07_10_2024_EX
-Functions EX
+# 07_10_2024_Exercises
+Functions Exercises
