@@ -105,6 +105,16 @@ console.log(average); // Va afișa 20
  * care primește un șir și returnează șirul cu toate 
  * literele transformate în majusculă.
  */
+// Implementation of the function for transforming to uppercase
+function transformToUppercase(inputString) {
+    return inputString.toUpperCase();
+}
+
+// Example function call
+const originalString = "Hello, World!";
+const transformedString = transformToUppercase(originalString);
+console.log(transformedString); // Will display "HELLO, WORLD!"
+
 
 /**
  * Verificarea Numărului Prim:
