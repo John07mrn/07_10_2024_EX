@@ -87,6 +87,17 @@ console.log(raised); // Va afișa 8
  * Creează o funcție numită calculateAverage care primește 
  * un array de numere și returnează media lor.
  */
+// Implementarea funcției pentru calcularea mediei
+function calculateAverage(numbers) {
+    const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    const average = sum / numbers.length;
+    return average;
+}
+
+// Exemplu de apel al funcției
+const numbersArray = [10, 15, 20, 25, 30];
+const average = calculateAverage(numbersArray);
+console.log(average); // Va afișa 20
 
 /**
  * Transformarea în Majusculă:
