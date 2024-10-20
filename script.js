@@ -72,6 +72,15 @@ console.log(generateRandomNumber());
  * Implementează o funcție numită raiseToPower care primește 
  * două numere (baza și exponentul) și returnează rezultatul ridicării la putere.
  */
+// Implementarea funcției pentru ridicarea la putere
+function raiseToPower(base, exponent) {
+    return Math.pow(base, exponent);
+}
+
+// Exemplu de apel al funcției
+const raised = raiseToPower(2, 3);
+console.log(raised); // Va afișa 8
+
 
 /**
  * Calcularea Mediei:
